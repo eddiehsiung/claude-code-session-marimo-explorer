@@ -61,7 +61,7 @@ pip install altair pandas
 
 ```bash
 git clone <repo-url>
-cd session-explorer
+cd claude-code-session-marimo-explorer
 ```
 
 ---
@@ -69,7 +69,7 @@ cd session-explorer
 ## Usage
 
 ```bash
-marimo edit claude_session_explorer_molab.py
+marimo edit claude_code_session_marimo_explorer.py
 ```
 
 This opens the notebook in your browser. The notebook reads directly from `~/.claude/projects/` — no configuration needed as long as you have Claude Code installed and have run at least one session.
